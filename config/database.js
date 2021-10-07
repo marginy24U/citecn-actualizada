@@ -1,7 +1,7 @@
 require('dotenv').config()
 
 let dbOptions = {
-  username: process.env.DB_USER || "mombacho_citecnBD",
+  username: process.env.DB_USER || "mombacho_citecn",
  password: process.env.DB_PASSWORD || "Citecn2021*",
 database: process.env.DB_NAME || "mombacho_citecnBD",
     host: process.env.DB_HOST || '50.87.192.144',
